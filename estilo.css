@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@font-face {
+	font-family: 'Raleway';
+	src: url("Raleway-LightItalic.ttf");
+}
+
+body {
+	background-image: url(back-01.jpg); /*imagem de fundo da página*/
+}
+
+hgroup {
+	font-family: 'Raleway';
+	font-weight: bolder;
+	text-align: center;
+	margin: 65px auto 0px auto;
+}
+
+article {
+	position: relative;
+	display: block;
+	border: dotted;
+	width: 40%;
+	margin: 50px auto 0 auto;
+}
+
+section {
+	background-color: rgba(0,0,0,.1);
+	padding: 25px;
+}
+
+h3 {
+	position: relative;
+	margin-bottom: 40px;
+	color: #000000;
+	text-align: center;
+	font-family: 'Raleway';
+	font-weight: bolder;
+}
+
+.campo {
+	border: 3px dotted #787878;
+	background-color: rgba(0,0,0,.1);
+	width: 50%;
+	margin: auto auto auto auto;
+	padding: 12px;
+	transition: opacity 5s;
+}
+
+.campo:hover {
+	background-color: #e6e6e6;
+	opacity: 1;
+}
+
+fieldset {
+	padding: 8px;
+	width: 30%;
+	border: none;
+	position: relative;
+	margin: auto auto auto auto;
+}
+
+.resultado {
+	text-indent: 0px;
+}
+
+.rodape {
+	margin-top: 52px;
+}
+
+p {
+	font-family: 'Raleway';
+	font-weight: bolder;
+	text-align: left;
+	text-indent: 20px;
+}

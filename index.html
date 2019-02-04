@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Calcule</title>
+	<link rel="stylesheet" type="text/css" href="_est/estilo.css"> <!--Referência ao CSS-->
+</head>
+
+<body>
+
+<hgroup>
+	<h1>Calculadora</h1><br/>
+</hgroup>
+
+<article>
+<section class="principal">
+<form method="post" id="campo">
+	
+	<h3>Escreva os números e escolha o operador para fazer o cálculo.</h3>
+
+	<div class="campo">
+	<fieldset>
+		<input type="number" name="cnum1" id="dnum1" value="" placeholder="Digite um Número"/>
+	</fieldset>
+
+	<fieldset>
+		<select name="cop" id="dop">
+			<optgroup>
+				<option value="+">+</option>
+				<option value="-">-</option>
+				<option value="*">x</option>
+				<option value="/">/</option>
+			</optgroup>
+		</select>
+	</fieldset>
+
+	<fieldset>
+		<input type="number" name="cnum2" id="dnum2" value="" placeholder="Digite um Número"/>
+	</fieldset>
+
+	<fieldset>
+		<input type="button" name="cbut" id="dbut" value="Resultado" onclick="conta();" />
+	</fieldset>
+
+	<div>
+		<p class="resultado">Resultado: <span id="resultado"></span></p>
+	</div>
+</div>
+</form>
+</section>
+</article>
+
+<footer class="rodape">
+	<p>Use 'x' para multiplicação e '/' para divisão</p>
+</footer>
+</body>
+
+<script type="text/javascript" src="_js/funcoes.js">
+</script>
+
+</html>
